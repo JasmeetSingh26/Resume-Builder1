@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { Analytics } from "@vercel/analytics/react";
 import { motion } from "framer-motion";
 import React from "react";
 import Footer from "./components/Footer";
@@ -61,6 +61,7 @@ const App = () => {
           </div>
         </motion.div>
       </div>
+      <Analytics />
       {/* Footer */}
       <Footer />
     </div>
